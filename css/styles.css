@@ -1,0 +1,144 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+    background-color: rgba(40, 54, 53, 0.1);
+    font-family: "Roboto", sans-serif;
+  }
+
+main {
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(102, 36, 0);
+}
+
+#imagen_portada img{
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.navbar .navbar-toggler {
+  border: 2px solid white;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+  border: none;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-toggler .navbar-toggler-icon:before {
+  content: "☰"; 
+  color: white;
+  font-size: 24px;
+}
+.navbar .navbar-toggler:not(.collapsed) {
+  box-shadow: 0px 0px 0px 3px rgba(102, 36, 0, 0.9);
+}
+.navbar .navbar-toggler.collapsed {
+  box-shadow: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 10px 30px !important;
+}
+.navbar ul li a:hover {
+  background-color: whitesmoke;
+  color: rgba(102, 36, 0, 0.9);
+  border-radius: 10px;
+}
+
+#arma_tu_pc figure {
+  
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 40px;
+  background-color: white;
+  width: 180px;
+}
+
+#arma_tu_pc img {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid rgb(43, 9, 128);
+}
+
+h2 {
+  color: rgba(102, 36, 0, 0.9);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+h3{
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+h4{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+#div_rango_precio {
+  display: inline-block;
+  border: 1px solid rgb(43, 9, 128);
+}
+
+#div_rango_precio input {
+  display: block;
+  margin: 4px;
+  width: 60px;
+}
+
+#div_botones_filtro input {
+  display: block;
+  text-align: center;
+  margin-inline: 6px;
+  width: 90px;
+  height: 30px;
+  background-color: rgba(102, 36, 0, 1);
+  color: white;
+  letter-spacing: 1px;
+
+  padding: 4px 12px 4px 12px;
+  border-radius: 6px;
+}
+
+.card-producto{
+  height: auto;
+  padding: 10px;
+  display: inline-block;
+  margin: 0;
+  
+  border: 1px solid rgb(43, 9, 128);
+  
+}
+
+.card-producto figure {
+  
+}
+
+.card-producto img{
+ height: auto;
+ width: 100%;
+ object-fit: cover;
+ display: block;
+}
